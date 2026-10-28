@@ -1,0 +1,52 @@
+# 操作系统
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# 编辑器 / IDE
+.idea/
+.vscode/
+*.iml
+*.swp
+*~
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Java
+target/
+*.class
+*.jar
+build/
+out/
+
+# Node
+node_modules/
+dist/
+npm-debug.log*
+yarn-error.log*
+
+# 模型权重与原始数据（体积大，不进仓库）
+*.pth
+*.onnx
+*.h5
+*.ckpt
+datasets/
+data/raw/
+
+# 敏感信息
+.env
+.env.*
+*.key
+config.local.*
+
+# 日志与临时文件
+*.log
+tmp/
+temp/
